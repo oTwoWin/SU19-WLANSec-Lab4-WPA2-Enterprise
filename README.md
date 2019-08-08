@@ -2,7 +2,7 @@
 
 ## WPA2 Enterprise Security
 
-__Korean/Swiss hybrid teams are highly encouraged__
+Authors: Seoyeoung Jo, Tommy Gerardi and Daniel Oliveira Paiva
 
 ### For this first part, you will need to:
 
@@ -39,19 +39,25 @@ How to run the attack:
 
 > **_Question :_** What options did you have to modify in the hostapd-wpe configuration file in order to make the attack work ?
 > 
-> **_Answer:_** 
+> **_Answer:_** We only changed the name of the SSID.
 
 ---
 
 > **_Question:_** What type of hash did you capture ?
-> 
-> **_Answer:_** 
+>
+> **_Answer:_** An NETNTLM hash. We cracked it with john the ripper.
+>
+> ![](/home/daniel/SU19-WLANSec-Lab4-WPA2-Enterprise/DeepinScreenshot_select-area_20190808083709.png)
+>
+> ![](/home/daniel/SU19-WLANSec-Lab4-WPA2-Enterprise/DeepinScreenshot_select-area_20190808084509.png)
 
 ---
 
-> **_Question:_** Which authentication methods are supported by hostapd-wpe ?
-> 
-> **_Réponse:_**
+> **Question:_** Which authentication methods are supported by hostapd-wpe ?
+>
+> **_Réponse:_** Here are the methods avaible.
+>
+> ![](/home/daniel/SU19-WLANSec-Lab4-WPA2-Enterprise/22e72528-ef5c-4e17-90d0-99480078a9a4.jpeg)
 
 
 ## In case of problems...
